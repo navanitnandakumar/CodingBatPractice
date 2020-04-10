@@ -19,3 +19,9 @@ We have a loud talking parrot. The "hour" parameter is the current hour time in 
 parrot_trouble(True, 6) → True
 parrot_trouble(True, 7) → False
 parrot_trouble(False, 6) → False
+
+6.Warmup1 - Makes10 :
+Given 2 ints, a and b, return True if one if them is 10 or if their sum is 10.
+makes10(9, 10) → True
+makes10(9, 9) → False
+makes10(1, 9) → True
