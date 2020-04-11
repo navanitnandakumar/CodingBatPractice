@@ -37,3 +37,9 @@ Given 2 int values, return True if one is negative and one is positive. Except i
 pos_neg(1, -1, False) → True
 pos_neg(-1, 1, False) → True
 pos_neg(-4, -5, True) → True
+
+9.Warmup1 - not_string
+Given a string, return a new string where "not " has been added to the front. However, if the string already begins with "not", return the string unchanged.
+not_string('candy') → 'not candy'
+not_string('x') → 'not x'
+not_string('not bad') → 'not bad'
