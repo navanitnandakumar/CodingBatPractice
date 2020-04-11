@@ -31,3 +31,9 @@ Given an int n, return True if it is within 10 of 100 or 200. Note: abs(num) com
 near_hundred(93) → True
 near_hundred(90) → True
 near_hundred(89) → False
+
+8.Warmup1 - Pos_neg :
+Given 2 int values, return True if one is negative and one is positive. Except if the parameter "negative" is True, then return True only if both are negative.
+pos_neg(1, -1, False) → True
+pos_neg(-1, 1, False) → True
+pos_neg(-4, -5, True) → True
