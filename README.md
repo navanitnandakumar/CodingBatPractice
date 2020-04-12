@@ -1,4 +1,4 @@
-# 👨‍💻 Coding-Bat-Practice 👨‍💻
+# 👨‍💻 CodingBat-Practice 👨‍💻
 
 This repo consists of all the programs that I did in https://codingbat.com
 
