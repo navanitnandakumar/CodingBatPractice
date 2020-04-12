@@ -49,3 +49,9 @@ Given a non-empty string and an int n, return a new string where the char at ind
 missing_char('kitten', 1) → 'ktten'
 missing_char('kitten', 0) → 'itten'
 missing_char('kitten', 4) → 'kittn'
+
+11.Warmup1 - front_back :
+Given a string, return a new string where the first and last chars have been exchanged.
+front_back('code') → 'eodc'
+front_back('a') → 'a'
+front_back('ab') → 'ba'
