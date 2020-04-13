@@ -1,7 +1,7 @@
 def missing_char(str, n):
   front = str[:n]
   rear = str[n+1:]
-  return(front + rear)
+  return front + rear
   
   #Expected	Run		
 #missing_char('kitten', 1) → 'ktten'	'ktten'	OK	
