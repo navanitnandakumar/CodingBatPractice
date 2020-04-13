@@ -63,3 +63,9 @@ Given a string, we'll say that the front is the first 3 chars of the string. If 
 front3('Java') → 'JavJavJav'
 front3('Chocolate') → 'ChoChoCho'
 front3('abc') → 'abcabcabc'
+
+13.Warmup2 - String_times :
+Given a string and a non-negative int n, return a larger string that is n copies of the original string.
+string_times('Hi', 2) → 'HiHi'
+string_times('Hi', 3) → 'HiHiHi'
+string_times('Hi', 1) → 'Hi'
