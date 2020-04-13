@@ -1,7 +1,7 @@
 def makes10(a, b):
-  if(a==10 or b==10 or ((a+b)==10)):
-    return(True)
-  else: return(False)
+  if (a==10 or b==10) or ((a+b)==10) :
+    return True 
+  else: return False 
 
 #Expected	Run		
 #makes10(9, 10) → True	True	OK	
