@@ -75,3 +75,9 @@ Given a string and a non-negative int n, we'll say that the front of the string 
 front_times('Chocolate', 2) → 'ChoCho'
 front_times('Chocolate', 3) → 'ChoChoCho'
 front_times('Abc', 3) → 'AbcAbcAbc'
+
+15.Warmup2 - String_bits :
+Given a string, return a new string made of every other char starting with the first, so "Hello" yields "Hlo".
+string_bits('Hello') → 'Hlo'
+string_bits('Hi') → 'H'
+string_bits('Heeololeo') → 'Hello'
