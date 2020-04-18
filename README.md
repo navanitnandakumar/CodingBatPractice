@@ -81,3 +81,9 @@ Given a string, return a new string made of every other char starting with the f
 string_bits('Hello') → 'Hlo'
 string_bits('Hi') → 'H'
 string_bits('Heeololeo') → 'Hello'
+
+16.Warmup2 - String_splosion :
+Given a non-empty string like "Code" return a string like "CCoCodCode".
+string_splosion('Code') → 'CCoCodCode'
+string_splosion('abc') → 'aababc'
+string_splosion('ab') → 'aab'
