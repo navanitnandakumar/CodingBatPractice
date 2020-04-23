@@ -105,3 +105,9 @@ Given an array of ints, return True if one of the first 4 elements in the array 
 array_front9([1, 2, 9, 3, 4]) → True
 array_front9([1, 2, 3, 4, 9]) → False
 array_front9([1, 2, 3, 4, 5]) → False
+
+20.Warmup2 - Array123 :
+Given an array of ints, return True if the sequence of numbers 1, 2, 3 appears in the array somewhere.
+array123([1, 1, 2, 3, 1]) → True
+array123([1, 1, 2, 4, 1]) → False
+array123([1, 1, 2, 1, 2, 3]) → True
