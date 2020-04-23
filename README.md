@@ -99,3 +99,9 @@ Given an array of ints, return the number of 9's in the array.
 array_count9([1, 2, 9]) → 1
 array_count9([1, 9, 9]) → 2
 array_count9([1, 9, 9, 3, 9]) → 3
+
+19.Warmup2 - Array_front9 :
+Given an array of ints, return True if one of the first 4 elements in the array is a 9. The array length may be less than 4.
+array_front9([1, 2, 9, 3, 4]) → True
+array_front9([1, 2, 3, 4, 9]) → False
+array_front9([1, 2, 3, 4, 5]) → False
