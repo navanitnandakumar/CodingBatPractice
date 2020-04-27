@@ -117,3 +117,9 @@ Given 2 strings, a and b, return the number of the positions where they contain 
 string_match('xxcaazz', 'xxbaaz') → 3
 string_match('abc', 'abc') → 2
 string_match('abc', 'axc') → 0
+
+22.String1 - Hello_name :
+Given a string name, e.g. "Bob", return a greeting of the form "Hello Bob!".
+hello_name('Bob') → 'Hello Bob!'
+hello_name('Alice') → 'Hello Alice!'
+hello_name('X') → 'Hello X!'
