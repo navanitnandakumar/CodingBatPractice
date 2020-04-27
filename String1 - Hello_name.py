@@ -1,6 +1,5 @@
 def hello_name(name):
-  output = "Hello "+name+"!"
-  return output
+  return "Hello "+name+"!"
   
 #Expected	Run		
 #hello_name('Bob') → 'Hello Bob!'	'Hello Bob!'	OK	
