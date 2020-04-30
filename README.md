@@ -124,7 +124,19 @@ hello_name('Bob') → 'Hello Bob!'
 hello_name('Alice') → 'Hello Alice!'
 hello_name('X') → 'Hello X!'
 
-23.String1 - Make_out_word :
+23.String1 - Make_abba :
+Given two strings, a and b, return the result of putting them together in the order abba, e.g. "Hi" and "Bye" returns "HiByeByeHi".
+make_abba('Hi', 'Bye') → 'HiByeByeHi'
+make_abba('Yo', 'Alice') → 'YoAliceAliceYo'
+make_abba('What', 'Up') → 'WhatUpUpWhat'
+
+24.String1 - Make_tags :
+The web is built with HTML strings like "<i>Yay</i>" which draws Yay as italic text. In this example, the "i" tag makes <i> and </i> which surround the word "Yay". Given tag and word strings, create the HTML string with tags around the word, e.g. "<i>Yay</i>".
+make_tags('i', 'Yay') → '<i>Yay</i>'
+make_tags('i', 'Hello') → '<i>Hello</i>'
+make_tags('cite', 'Yay') → '<cite>Yay</cite>'
+
+25.String1 - Make_out_word :
 Given an "out" string length 4, such as "<<>>", and a word, return a new string where the word is in the middle of the out string, e.g. "<<word>>".
 make_out_word('<<>>', 'Yay') → '<<Yay>>'
 make_out_word('<<>>', 'WooHoo') → '<<WooHoo>>'
