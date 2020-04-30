@@ -141,3 +141,9 @@ Given an "out" string length 4, such as "<<>>", and a word, return a new string 
 make_out_word('<<>>', 'Yay') → '<<Yay>>'
 make_out_word('<<>>', 'WooHoo') → '<<WooHoo>>'
 make_out_word('[[]]', 'word') → '[[word]]'
+  
+26.String1 - Extra_end :
+Given a string, return a new string made of 3 copies of the last 2 chars of the original string. The string length will be at least 2.
+extra_end('Hello') → 'lololo'
+extra_end('ab') → 'ababab'
+extra_end('Hi') → 'HiHiHi'
