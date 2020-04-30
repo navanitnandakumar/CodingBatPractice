@@ -123,3 +123,9 @@ Given a string name, e.g. "Bob", return a greeting of the form "Hello Bob!".
 hello_name('Bob') → 'Hello Bob!'
 hello_name('Alice') → 'Hello Alice!'
 hello_name('X') → 'Hello X!'
+
+23.String1 - Make_out_word :
+Given an "out" string length 4, such as "<<>>", and a word, return a new string where the word is in the middle of the out string, e.g. "<<word>>".
+make_out_word('<<>>', 'Yay') → '<<Yay>>'
+make_out_word('<<>>', 'WooHoo') → '<<WooHoo>>'
+make_out_word('[[]]', 'word') → '[[word]]'
