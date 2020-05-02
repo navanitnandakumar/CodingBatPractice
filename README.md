@@ -154,3 +154,9 @@ first_two('Hello') → 'He'
 first_two('abcdefg') → 'ab'
 first_two('ab') → 'ab'
 
+28.String1 - First_half :
+Given a string of even length, return the first half. So the string "WooHoo" yields "Woo".
+first_half('WooHoo') → 'Woo'
+first_half('HelloThere') → 'Hello'
+first_half('abcdef') → 'abc'
+
