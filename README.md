@@ -207,3 +207,9 @@ Return the number of times that the string "code" appears anywhere in the given 
 count_code('aaacodebbb') → 1
 count_code('codexxcode') → 2
 count_code('cozexxcope') → 2
+
+37.String2 - End_other :
+Given two strings, return True if either of the strings appears at the very end of the other string, ignoring upper/lower case differences (in other words, the computation should not be "case sensitive"). Note: s.lower() returns the lowercase version of a string.
+end_other('Hiabc', 'abc') → True
+end_other('AbC', 'HiaBc') → True
+end_other('abc', 'abXabc') → True
