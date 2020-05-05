@@ -190,3 +190,10 @@ double_char('The') → 'TThhee'
 double_char('AAbb') → 'AAAAbbbb'
 double_char('Hi-There') → 'HHii--TThheerree'
 
+34.String2 - Count_hi :
+Return the number of times that the string "hi" appears anywhere in the given string.
+count_hi('abc hi ho') → 1
+count_hi('ABChi hi') → 2
+count_hi('hihi') → 2
+
+
