@@ -196,4 +196,8 @@ count_hi('abc hi ho') → 1
 count_hi('ABChi hi') → 2
 count_hi('hihi') → 2
 
-
+35.String2 - Cat_dog :
+Return True if the string "cat" and "dog" appear the same number of times in the given string.
+cat_dog('catdog') → True
+cat_dog('catcat') → False
+cat_dog('1cat1cadodog') → True
