@@ -201,3 +201,9 @@ Return True if the string "cat" and "dog" appear the same number of times in the
 cat_dog('catdog') → True
 cat_dog('catcat') → False
 cat_dog('1cat1cadodog') → True
+
+36.String2 - Count_code :
+Return the number of times that the string "code" appears anywhere in the given string, except we'll accept any letter for the 'd', so "cope" and "cooe" count.
+count_code('aaacodebbb') → 1
+count_code('codexxcode') → 2
+count_code('cozexxcope') → 2
