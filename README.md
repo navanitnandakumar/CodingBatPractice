@@ -213,3 +213,9 @@ Given two strings, return True if either of the strings appears at the very end 
 end_other('Hiabc', 'abc') → True
 end_other('AbC', 'HiaBc') → True
 end_other('abc', 'abXabc') → True
+
+38.String2 - xyz_there :
+Return True if the given string contains an appearance of "xyz" where the xyz is not directly preceeded by a period (.). So "xxyz" counts but "x.xyz" does not.
+xyz_there('abcxyz') → True
+xyz_there('abc.xyz') → False
+xyz_there('xyz.abc') → True
