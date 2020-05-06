@@ -231,3 +231,7 @@ Given an array of ints, return True if the array is length 1 or more, and the fi
 same_first_last([1, 2, 3]) → False
 same_first_last([1, 2, 3, 1]) → True
 same_first_last([1, 2, 1]) → True
+
+41.List1 - Make_pi :
+Return an int array length 3 containing the first 3 digits of pi, {3, 1, 4}.
+make_pi() → [3, 1, 4]
