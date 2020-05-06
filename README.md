@@ -219,3 +219,9 @@ Return True if the given string contains an appearance of "xyz" where the xyz is
 xyz_there('abcxyz') → True
 xyz_there('abc.xyz') → False
 xyz_there('xyz.abc') → True
+
+39.List1 - First_last6 :
+Given an array of ints, return True if 6 appears as either the first or last element in the array. The array will be length 1 or more.
+first_last6([1, 2, 6]) → True
+first_last6([6, 1, 2, 3]) → True
+first_last6([13, 6, 1, 2, 3]) → False
