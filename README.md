@@ -1,4 +1,4 @@
-# 👨‍💻 CodingBat-Practice 👨‍💻
+# CodingBat-Practice 
 
 ![](https://pm1.narvii.com/6722/c84a5df716422c361196c681cc2c215b10f4ca52_00.jpg)
 
