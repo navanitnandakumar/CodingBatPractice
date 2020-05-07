@@ -1,5 +1,7 @@
 # 👨‍💻 CodingBat-Practice 👨‍💻
 
+![](https://www.digitaltechnologieshub.edu.au/images/default-source/default-album/codingbat_1-png.png)
+
 This repo consists of all the programs that I did in https://codingbat.com
 
 # Python
