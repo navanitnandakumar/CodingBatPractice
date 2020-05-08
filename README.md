@@ -273,3 +273,9 @@ Given an array of ints, return the sum of the first 2 elements in the array. If 
 sum2([1, 2, 3]) → 3
 sum2([1, 1]) → 2
 sum2([1, 1, 1, 1]) → 2
+
+48.List1 - Middle_way :
+Given 2 int arrays, a and b, each length 3, return a new array length 2 containing their middle elements.
+middle_way([1, 2, 3], [4, 5, 6]) → [2, 5]
+middle_way([7, 7, 7], [3, 8, 0]) → [7, 8]
+middle_way([5, 2, 9], [1, 4, 5]) → [2, 4]
