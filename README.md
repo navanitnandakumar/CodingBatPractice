@@ -285,3 +285,9 @@ Given an array of ints, return a new array length 2 containing the first and las
 make_ends([1, 2, 3]) → [1, 3]
 make_ends([1, 2, 3, 4]) → [1, 4]
 make_ends([7, 4, 6, 2]) → [7, 2]
+
+50.List1 - Has23 :
+Given an int array length 2, return True if it contains a 2 or a 3.
+has23([2, 5]) → True
+has23([4, 3]) → True
+has23([4, 5]) → False
