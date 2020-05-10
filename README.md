@@ -289,3 +289,9 @@ Given an int array length 2, return True if it contains a 2 or a 3.
 has23([2, 5]) → True
 has23([4, 3]) → True
 has23([4, 5]) → False
+
+51.List2 - Count_evens :
+Return the number of even ints in the given array. Note: the % "mod" operator computes the remainder, e.g. 5 % 2 is 1.
+count_evens([2, 1, 2, 3, 4]) → 3
+count_evens([2, 2, 0]) → 3
+count_evens([1, 3, 5]) → 0
