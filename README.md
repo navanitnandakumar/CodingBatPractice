@@ -307,3 +307,10 @@ Return the "centered" average of an array of ints, which we'll say is the mean a
 centered_average([1, 2, 3, 4, 100]) → 3
 centered_average([1, 1, 5, 5, 10, 8, 7]) → 5
 centered_average([-10, -4, -2, -4, -2, 0]) → -3
+
+54.List2 - Sum13 :
+Return the sum of the numbers in the array, returning 0 for an empty array. Except the number 13 is very unlucky, so it does not count and numbers that come immediately after a 13 also do not count.
+sum13([1, 2, 2, 1]) → 6
+sum13([1, 1]) → 2
+sum13([1, 2, 2, 1, 13]) → 6
+
