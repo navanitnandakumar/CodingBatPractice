@@ -2,8 +2,6 @@
 
 This repo consists of all the programs that I did in https://codingbat.com
 
-# Python
-
 ## Warmup -
 
 1.Warmup1 - Sleep_in : 
