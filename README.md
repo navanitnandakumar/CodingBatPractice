@@ -4,6 +4,8 @@ This repo consists of all the programs that I did in https://codingbat.com
 
 # Python
 
+Warmup -
+
 1.Warmup1 - Sleep_in : 
 The parameter weekday is True if it is a weekday, and the parameter vacation is True if we are on vacation. We sleep in if it is not a weekday or we're on vacation. Return True if we sleep in.   sleep_in(False, False) → True sleep_in(True, False) → False sleep_in(False, True) → True
 
@@ -118,6 +120,8 @@ string_match('xxcaazz', 'xxbaaz') → 3
 string_match('abc', 'abc') → 2
 string_match('abc', 'axc') → 0
 
+String-
+
 22.String1 - Hello_name :
 Given a string name, e.g. "Bob", return a greeting of the form "Hello Bob!".
 hello_name('Bob') → 'Hello Bob!'
@@ -219,6 +223,8 @@ Return True if the given string contains an appearance of "xyz" where the xyz is
 xyz_there('abcxyz') → True
 xyz_there('abc.xyz') → False
 xyz_there('xyz.abc') → True
+
+List-
 
 39.List1 - First_last6 :
 Given an array of ints, return True if 6 appears as either the first or last element in the array. The array will be length 1 or more.
@@ -325,3 +331,11 @@ Given an array of ints, return True if the array contains a 2 next to a 2 somewh
 has22([1, 2, 2]) → True
 has22([1, 2, 1, 2]) → False
 has22([2, 1, 2]) → False
+
+Logic-
+
+57.Logic1 - Cigar_party :
+When squirrels get together for a party, they like to have cigars. A squirrel party is successful when the number of cigars is between 40 and 60, inclusive. Unless it is the weekend, in which case there is no upper bound on the number of cigars. Return True if the party with the given values is successful, or False otherwise.
+cigar_party(30, False) → False
+cigar_party(50, False) → True
+cigar_party(70, True) → True
