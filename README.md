@@ -343,3 +343,15 @@ You and your date are trying to get a table at a restaurant. The parameter "you"
 date_fashion(5, 10) → 2
 date_fashion(5, 2) → 0
 date_fashion(5, 5) → 1
+
+59. Logic1 - Squirrel_play :
+The squirrels in Palo Alto spend most of the day playing. In particular, they play if the temperature is between 60 and 90 (inclusive). Unless it is summer, then the upper limit is 100 instead of 90. Given an int temperature and a boolean is_summer, return True if the squirrels play and False otherwise.
+squirrel_play(70, False) → True
+squirrel_play(95, False) → False
+squirrel_play(95, True) → True
+
+60. Logic1 - Caught_speeding :
+You are driving a little too fast, and a police officer stops you. Write code to compute the result, encoded as an int value: 0=no ticket, 1=small ticket, 2=big ticket. If speed is 60 or less, the result is 0. If speed is between 61 and 80 inclusive, the result is 1. If speed is 81 or more, the result is 2. Unless it is your birthday -- on that day, your speed can be 5 higher in all cases.
+caught_speeding(60, False) → 0
+caught_speeding(65, False) → 1
+caught_speeding(65, True) → 0
