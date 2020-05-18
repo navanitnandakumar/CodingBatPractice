@@ -355,3 +355,9 @@ You are driving a little too fast, and a police officer stops you. Write code to
 caught_speeding(60, False) → 0
 caught_speeding(65, False) → 1
 caught_speeding(65, True) → 0
+
+61. Logic1 - Sorta_sum :
+Given 2 ints, a and b, return their sum. However, sums in the range 10..19 inclusive, are forbidden, so in that case just return 20.
+sorta_sum(3, 4) → 7
+sorta_sum(9, 4) → 20
+sorta_sum(10, 11) → 21
