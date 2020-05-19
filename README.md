@@ -361,3 +361,21 @@ Given 2 ints, a and b, return their sum. However, sums in the range 10..19 inclu
 sorta_sum(3, 4) → 7
 sorta_sum(9, 4) → 20
 sorta_sum(10, 11) → 21
+
+62. Logic1 - Alarm_clock :
+Given a day of the week encoded as 0=Sun, 1=Mon, 2=Tue, ...6=Sat, and a boolean indicating if we are on vacation, return a string of the form "7:00" indicating when the alarm clock should ring. Weekdays, the alarm should be "7:00" and on the weekend it should be "10:00". Unless we are on vacation -- then on weekdays it should be "10:00" and weekends it should be "off".
+alarm_clock(1, False) → '7:00'
+alarm_clock(5, False) → '7:00'
+alarm_clock(0, False) → '10:00'
+
+63. Logic1 - Love6 :
+The number 6 is a truly great number. Given two int values, a and b, return True if either one is 6. Or if their sum or difference is 6. Note: the function abs(num) computes the absolute value of a number.
+love6(6, 4) → True
+love6(4, 5) → False
+love6(1, 5) → True
+
+64. Logic1 - In1to10 :
+Given a number n, return True if n is in the range 1..10, inclusive. Unless outside_mode is True, in which case return True if the number is less or equal to 1, or greater or equal to 10.
+in1to10(5, False) → True
+in1to10(11, False) → False
+in1to10(11, True) → True
