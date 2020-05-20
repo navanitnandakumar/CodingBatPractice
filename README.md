@@ -391,3 +391,9 @@ We want to make a row of bricks that is goal inches long. We have a number of sm
 make_bricks(3, 1, 8) → True
 make_bricks(3, 1, 9) → False
 make_bricks(3, 2, 10) → True
+
+67. Logic2 - Lone_sum :
+Given 3 int values, a b c, return their sum. However, if one of the values is the same as another of the values, it does not count towards the sum.
+lone_sum(1, 2, 3) → 6
+lone_sum(3, 2, 3) → 2
+lone_sum(3, 3, 3) → 0
