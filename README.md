@@ -421,3 +421,9 @@ Given three ints, a b c, return True if one of b or c is "close" (differing from
 close_far(1, 2, 10) → True
 close_far(1, 2, 3) → False
 close_far(4, 1, 3) → True
+
+72. Logic2 - Make_chocolate :
+We want make a package of goal kilos of chocolate. We have small bars (1 kilo each) and big bars (5 kilos each). Return the number of small bars to use, assuming we always use big bars before small bars. Return -1 if it can't be done.
+make_chocolate(4, 1, 9) → 4
+make_chocolate(4, 1, 10) → -1
+make_chocolate(4, 1, 7) → 2
