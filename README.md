@@ -13,7 +13,7 @@ We have two monkeys, a and b, and the parameters a_smile and b_smile indicate if
 3.Warmup1 - Sum_double :
 Given two int values, return their sum. Unless the two values are the same, then return double their sum.   sum_double(1, 2) → 3 sum_double(3, 2) → 5 sum_double(2, 2) → 8
 
-4. Warmup1 - diff_21 :
+4.Warmup1 - diff_21 :
 Given an int n, return the absolute difference between n and 21, except return double the absolute difference if n is over 21.   diff21(19) → 2 diff21(10) → 11 diff21(21) → 0
 
 5. Warmup1 - Parrot_trouble :
